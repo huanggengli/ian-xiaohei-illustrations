@@ -1,0 +1,39 @@
+---
+name: lucia-illustrations
+description: 为中文文章、英语学习笔记和个人思考规划或生成 Lucía 暖橙半剪影正文配图。用于要求使用 Lucía 人物 IP、光里的剪影风格进行文章配图、单个观点插图、配图策略或局部改图的任务。
+---
+
+# Lucía 暖橙半剪影配图
+
+将文章中的判断、过程、状态或隐喻，变成白底留白、黑色手绘物件与 Lucía 暖橙半剪影人物结合的解释图。人物参与核心动作，不能只是旁观或装饰。默认 16:9 正文配图；头像、封面或其他比例以用户要求为准。
+
+## 先确定角色与风格
+
+- 生成前读取 [references/lucia-ip.md](references/lucia-ip.md) 和 [references/style-dna.md](references/style-dna.md)。人物定义以这些文字约束为准。
+- 查看 `assets/ip/lucia-character-sheet.png`，作为每次生成的角色主参考。它约束半剪影、三种发型和暖光；避免继续强化样图偏修长的身材与侧脸。
+- 将主参考图的实际本地路径传给图像工具；不能只在提示词里写文件名却不提供图片。用户明确提供新参考或要求变体时，按其说明分配参考角色。
+- `assets/examples/` 的 14 张图片只作构图与密度校准，按需选取，不能一股脑作为人物参考。目录与适配说明见 [references/examples-index.md](references/examples-index.md)。
+
+## 从文章到图片
+
+1. 读取正文，找出值得配图的认知转折，不平均分配图片。不把未读到的文章内容当作已知事实。
+2. 用户只要求分析或规划时，输出 shot list：段落位置、核心意思、结构、人物动作、主要物件、短标注、受光位置。一般 4–8 张，短文 1–3 张，按内容与用户数量要求调整。
+3. 用户要求生成时直接执行；明确要求确认后再生成时，停在方案。构图需要时读 [references/composition-patterns.md](references/composition-patterns.md)。新文章重新设计隐喻，只有明确复刻请求才沿用样图。
+4. 根据 [references/prompt-template.md](references/prompt-template.md) 编写每张提示词，用内置 `image_gen` 每张单独生成。若有明确要求的人物设定对照图，可以在一张中展示多个姿态；普通多张配图不可拼成一张。
+5. 用 [references/qa-checklist.md](references/qa-checklist.md) 检查实际结果，优先局部修复错字、角色漂移、动作不可读或光效过重等问题。
+
+## 不可遗漏的约束
+
+- 自然成年女性，柔和略圆侧脸，长黑发及三种抓夹变化；五官隐于暗处。
+- 深炭黑／黑褐主体与克制暖棕层次，局部外部暖橙受光。人物不是纯黑糊块，也不是明亮写实肖像。
+- 不添加包包；眼镜可选。不要默认让人物一直仰头、拿书或忧郁。
+- 真人操作工具，不把身体变成漏斗、机器或压扁的黑块。
+- 正文默认白底和短标注。人物暖光可有柔和明暗变化，背景不铺满橙光。橙色箭头与局部暖光在形态上区分。
+
+## 保存交付
+
+将最终图与实际使用的提示词保存在用户指定位置；无指定时遵循工作区输出约定，再无约定可使用 `assets/<article-slug>-illustrations/`。采用 `01-topic-name.png` 等顺序命名，保留原始生成文件；已有结果使用版本后缀，除非用户明确要求替换。
+
+报告张数、用途、保存位置与尚未解决的偏差，不把样图当作稳定复现的保证。
+
+本 Skill 改编自 Ian 的 Ian Xiaohei Illustrations，归属与许可见 [NOTICE.md](NOTICE.md) 和 [LICENSE](LICENSE)。

@@ -1,0 +1,118 @@
+{
+  "upstream_commit": "4102eb807f03bcb6e538a16e8b31b41db8b5b954",
+  "character_reference": "lucia-illustrations/assets/ip/lucia-character-sheet.png",
+  "examples": [
+    {
+      "file": "01-two-breakpoints.png",
+      "title": "两个断点",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1567194,
+      "sha256": "1b8b67614e62a52f7ea4a3ffaf4509b7215a449f5da8767c1e40bd413d88ab15"
+    },
+    {
+      "file": "02-minimum-loop.png",
+      "title": "最小闭环",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1498370,
+      "sha256": "b1bb331dd754d5edc6e1b9c7bf1b20f02158868d229b37716f2c484947634593"
+    },
+    {
+      "file": "03-sort-by-purpose.png",
+      "title": "按目的分拣",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1338625,
+      "sha256": "0c435baed3a9b0d28e867080de3c2b61b238d652073a4cd658a0c20135efce4a"
+    },
+    {
+      "file": "04-one-fish-many-uses.png",
+      "title": "一鱼多吃",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1607504,
+      "sha256": "c8aefd1ea663636f4ea2809fab812a654591c3399693bed0c1c472940a65de82"
+    },
+    {
+      "file": "05-handoff-path.png",
+      "title": "承接路径",
+      "width": 1671,
+      "height": 941,
+      "bytes": 1192301,
+      "sha256": "04d989b84932e0d5db8fd6641b845ef7a130a6860b282ba98889a9be16f0bf17"
+    },
+    {
+      "file": "06-three-sources.png",
+      "title": "三类信息来源",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1627292,
+      "sha256": "fbacefff99b4fbc49112248b91c184ecefedf7f00a4e29bcd51592a0f82c3344"
+    },
+    {
+      "file": "07-three-content-jobs.png",
+      "title": "内容的三种职责",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1583670,
+      "sha256": "3c9477846d00a9f217a71f5dc2152933e71d5ae5485c3855c1e38a90aade6734"
+    },
+    {
+      "file": "08-handoff-copy-toolbox.png",
+      "title": "结尾工具箱",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1483960,
+      "sha256": "301195c6307eb4e154ead0d3d926c7a023bfa8e7652a4e76b92ab0ae5b4fa8c3"
+    },
+    {
+      "file": "09-common-pits-no-title.png",
+      "title": "常见坑",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1566852,
+      "sha256": "e8e9cc7bc97db21a454b9c25c11f3a2e8f9147a4afc25eeddd66eeeaaa7f7711"
+    },
+    {
+      "file": "10-information-well.png",
+      "title": "信息井",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1701377,
+      "sha256": "963a58353a5f7da5e7137f693372dbfaf705786efafa9a5ddbb53b7e15280379"
+    },
+    {
+      "file": "11-idea-press.png",
+      "title": "想法压机",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1439957,
+      "sha256": "5c7af21327d81c14eeb7df6afb12accb0c73b789d2eb52734107fbc4364c6b03"
+    },
+    {
+      "file": "12-content-fermentation.png",
+      "title": "内容发酵",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1261214,
+      "sha256": "dc5936d54a9b3954caedbba05d8dbd5a174934fb3a8b4a745fa055d3a5212ebb"
+    },
+    {
+      "file": "13-system-bearing.png",
+      "title": "系统承重",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1648180,
+      "sha256": "07c3dd5729e30d216f8e2e7537465c7d8fb1c154add80f7a5dbf22798e68cdcf"
+    },
+    {
+      "file": "14-trust-bridge.png",
+      "title": "信任桥",
+      "width": 1672,
+      "height": 941,
+      "bytes": 1569690,
+      "sha256": "072270130355d3f90b67a58e1331dcc42056cab5c6cbd338ee9ea66e5fdb1c02"
+    }
+  ]
+}

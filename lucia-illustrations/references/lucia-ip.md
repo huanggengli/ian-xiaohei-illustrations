@@ -1,0 +1,49 @@
+# Lucía 人物 IP
+
+## 定位与主参考
+
+以本人为原型的成年女性，在阅读、学习和生活中寻找光，也逐渐发现一个个自己。用暖橙逆光、深色半剪影表达，不意味着人物必须孤独、忧郁或仰头望光。
+
+角色主参考：`../assets/ip/lucia-character-sheet.png`（相对本文件目录）。当前选定的是逆光半剪影，不再沿用之前探索的精细线描、Q 版、几何卡通或抽象黑团方案。
+
+## 固定外形
+
+- 自然成年女性比例，正常肩背、脖颈与四肢，不刻意缩腰或拉长身材。
+- 柔和略圆侧脸，饱满脸颊、柔和下颌，避免尖下巴。样图仅作参考，不进一步强化其偏修长的轮廓。
+- 五官隐于暗处，主要依靠侧脸轮廓、头部朝向和动作表达。不清晰绘制大眼睛、睫毛、唇妆或白色圆点眼睛。
+- 长黑发，整体发量和走向明确；边缘允许少量被光照亮的发丝。
+- 披发：全部长发自然垂落。
+- 抓夹半披发：上层在脑后收拢，下层长发垂落。
+- 抓夹扎发：全部头发在脑后低位收拢，保留长发尾；不能误画成高丸子头。
+- 抓夹在轮廓中可辨，不需要每次都用大特写。三种发型是同一人的变化，不是三个人。
+
+## 穿搭与配件
+
+宽松衬衫、外套、阔腿裤、平底鞋或运动鞋等日常服装，随动作与场景变化。深色半剪影统一视觉，不以固定衣服颜色作为身份。
+
+人物近视，眼镜可选，佩戴时镜框轮廓简洁，不遮蔽动作与侧脸。花纹包已移出定义：不添加手提包、肩包或背包作为默认道具，也不使用它们作为识别元素。
+
+## 动作与状态
+
+阅读、记录、思考、语言学习、电脑学习、步行、跑步，以及概念图中的搬运、分拣、拉线、连接、接住、推开、盖章、搭建等。通勤阅读通常是手机，休闲阅读可用 iPad 和笔；纸质书可作为概念场景的阅读表达。
+
+每张图选择与内容有关的动作。不固定托腮、盘腿、仰头或拿书；不堆砌全部兴趣道具。情绪由手势、重心和朝向表达。人体保持正常结构：让人物操作漏斗或机器，不把人体变成装置。
+
+## 正向关键词
+
+暖橙逆光、深色半剪影、自然成年女性比例、柔和略圆侧脸、长黑发、低位抓夹、黑褐色主体、克制暖棕层次、局部琥珀轮廓光、外部自然受光、清晰动作。
+
+warm amber backlighting, dark semi-silhouette illustration, adult woman, natural body proportions, softly rounded facial profile, long black hair, low claw clip, charcoal and dark brown tones, restrained warm-brown detail, selective amber rim light, external illumination, readable gestures.
+
+## 禁忌／负向关键词
+
+- 不添加包包，不以旧的花纹包偏好覆盖当前定义。
+- 不削尖下巴、放大眼睛、突出妆容或夸张身材。
+- 不改成 Q 版、动漫娃娃、黑团怪物、几何卡通、塑料 3D。
+- 不变成纯黑不可读的糊块，也不完全照亮脸和全身。
+- 不使用全身霓虹描边、魔法光球、火焰、过曝光晕或粒子。
+- 不把剪影默认解释成恐怖、阴郁、等待拯救。
+
+handbag, shoulder bag, backpack, chibi, anime doll, white dot eyes, oversized eyes, pointed chin, exaggerated model proportions, glamorous makeup, fully illuminated face, unreadable solid-black mass, neon outline, magical aura, glowing orb, flames, excessive bloom, plastic 3D rendering.
+
+验收：缩小后动作仍清楚；换发型、服装或道具后仍像同一个角色；去掉角色会损失核心动作或意义。

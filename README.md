@@ -1,281 +1,54 @@
-# Ian Xiaohei Illustrations
+# Lucía Illustrations
 
-> 把中文文章里的判断、流程、状态和隐喻，变成一张张白底、手绘、怪诞但清爽的正文配图。
->
-> 16:9 横版 | 小黑 IP | 纯白手绘 | 少量红橙蓝中文批注 | Codex Skill
+用深色半剪影人物、局部暖橙光与黑色手绘物件，为中文文章、英语学习笔记和个人思考生成正文配图。
 
----
+人物主参考：
 
-## 这个仓库是什么?
+![Lucía 三种发型](lucia-illustrations/assets/ip/lucia-character-sheet.png)
 
-Ian Xiaohei Illustrations 是一个 Codex Skill，用来指导 AI Agent 为中文文章、帖子、博客、Notion 文档和方法论内容生成正文配图。
+## 已完成的改造
 
-它不是通用插画 prompt，也不是 PPT 信息图模板。它的核心目标是：先理解文章里的认知锚点，再把其中一个判断、流程、结构、状态或隐喻，变成一张有记忆点的 16:9 手绘解释图。
+- Skill 目录与调用名：`lucia-illustrations` / `$lucia-illustrations`。
+- IP：自然成年女性、柔和略圆侧脸、长黑发，支持披发、抓夹半披发、低位抓夹扎发；眼镜可选，不带包包。
+- 风格：深炭黑／黑褐半剪影、局部暖橙受光，正文默认白底留白与简洁手绘物件。
+- 同步更新入口、人物定义、画风、构图、提示词、验收规则、界面元数据与调用示例。
+- 替换两处展示／运行时样图为 14 张 Lucía 改编图，保持完整编号。
+- 原版禁止一切渐变、阴影、橙色只限箭头等规则已调整；人物局部柔和受光允许，正文背景仍保持白色。
 
-默认视觉 IP 是“小黑”：一个黑色实心、白点眼、细腿、空表情的小角色。小黑不是吉祥物，不是贴纸，也不是站在角落里的装饰物，而是正在认真参与系统运转的荒诞工作者。
+## 使用
 
-一句话：**让 AI 不只是“配一张图”，而是把文章里的一个关键认知动作画出来。**
+真正需要安装的是本仓库内的 `lucia-illustrations/` 子目录，不是外层仓库目录。把该子目录放到所用客户端的技能目录后，用：
 
----
+```text
+Use $lucia-illustrations 为下面这篇文章生成 3 张正文配图。让人物承担核心动作，保持白底与局部暖橙光。
 
-## 适合谁用
+<粘贴正文>
+```
 
-特别适合：
+只做规划时明确说“先不要生图”。需要逐张确认时明确说“先给方案，等我确认后再生成”。更多调用见 [examples/prompts.md](examples/prompts.md)。
 
-- 写中文文章，需要正文配图和文章插图的人
-- 做知识型内容、方法论内容、AI 工作流内容的人
-- 想把抽象判断画成具体隐喻的人
-- 想要一种比 PPT 信息图更轻、更怪、更有个人识别度的配图风格的人
-- 用 Codex 做内容生产，希望稳定复用一套视觉语言的人
+本仓库已用 `lucia-illustrations/` 替换旧 `ian-xiaohei-illustrations/` Skill。安装时请选择新目录，避免两套规则并存。
 
-不适合：
+## 关键文件
 
-- 想要商业插画、品牌 KV 或精致扁平插画的人
-- 想要传统 PPT 信息图、复杂架构图或流程图的人
-- 想要儿童卡通、可爱 IP、表情包风格的人
-- 想把大量正文、长段解释或完整课程页塞进一张图里的人
-- 需要严格可编辑矢量源文件的人
+- [Skill 入口](lucia-illustrations/SKILL.md)
+- [人物 IP 定义与关键词](lucia-illustrations/references/lucia-ip.md)
+- [风格 DNA](lucia-illustrations/references/style-dna.md)
+- [提示词模板](lucia-illustrations/references/prompt-template.md)
+- [验收清单](lucia-illustrations/references/qa-checklist.md)
+- [14 张样板图索引](lucia-illustrations/references/examples-index.md)
+- [独立图集](examples/index.html)
 
----
-
-## 它会产出什么
-
-默认输出：
-
-- 16:9 横版正文配图
-- 一篇文章的 4-8 张 shot list
-- 每张图的主题、核心意思、结构类型、小黑动作和中文标注建议
-- 最终 PNG 图片，保存到 workspace 的 `assets/<article-slug>-illustrations/`
-
-默认不输出：
-
-- PPTX / PDF / Keynote
-- SVG / HTML / Canvas 可编辑图
-- 商业海报或封面 KV
-- 大段文字型信息图
-
----
-
-## 视觉风格
-
-这个 skill 默认使用 Ian 的“小黑怪诞正文配图”风格：
-
-- 纯白背景，不要纸纹、米色、阴影、渐变
-- 黑色手绘线稿，细线，轻微抖动
-- 大量留白，主体只占画面约 40%-60%
-- 少量红色、橙色、蓝色中文手写批注
-- 一张图只表达一个核心动作、结构、状态或隐喻
-- 小黑必须参与核心动作，不能只是装饰
-- 怪诞、有创意、清爽，但不幼稚、不卖萌
-
----
-
-## 示例效果
-
-### 两个断点
+## 样板预览
 
 ![两个断点](examples/images/01-two-breakpoints.png)
 
-### 按目的分拣
+![按目的分拣](examples/images/03-sort-by-purpose.png)
 
-![按目的分拣](examples/images/02-sort-by-purpose.png)
+![系统承重](examples/images/13-system-bearing.png)
 
-### 一鱼多吃
+样图校准结构与人物参与方式，不是默认照抄的构图模板。个别人物比线稿物件更立体，受光强度、细节和比例也有变化；生成新图时按文字规范检查，不能照搬这些偏差。
 
-![一鱼多吃](examples/images/03-one-fish-many-uses.png)
+## 来源与许可
 
-### 承接路径
-
-![承接路径](examples/images/04-handoff-path.png)
-
-### 信息井
-
-![信息井](examples/images/05-information-well.png)
-
-### 想法压机
-
-![想法压机](examples/images/06-idea-press.png)
-
-### 内容发酵
-
-![内容发酵](examples/images/07-content-fermentation.png)
-
-### 信任桥
-
-![信任桥](examples/images/08-trust-bridge.png)
-
-这些图片是风格校准样例，不是构图模板。使用时应该从当前文章重新发明隐喻，不要照抄旧案例的物件和构图。
-
----
-
-## 安装
-
-克隆仓库：
-
-```bash
-git clone https://github.com/helloianneo/ian-xiaohei-illustrations.git
-cd ian-xiaohei-illustrations
-```
-
-复制 skill 到 Codex skills 目录：
-
-```bash
-mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
-cp -R ./ian-xiaohei-illustrations "${CODEX_HOME:-$HOME/.codex}/skills/"
-```
-
-安装后，在 Codex 里使用：
-
-```text
-Use $ian-xiaohei-illustrations 为这篇中文文章设计并生成 5 张小黑怪诞正文配图。
-```
-
----
-
-## 怎么用
-
-### 只做配图规划
-
-```text
-Use $ian-xiaohei-illustrations 先不要生图。
-请分析下面这篇文章哪里值得配图，输出 5 张左右的 shot list。
-每张图写清楚：放在哪段后、主题、核心意思、结构类型、小黑在做什么、建议中文标注词。
-
-<粘贴文章>
-```
-
-### 直接生成正文配图
-
-```text
-Use $ian-xiaohei-illustrations 把下面这篇文章生成 4 张小黑怪诞正文配图。
-要求：16:9 横版、纯白背景、黑色手绘线稿、少量红橙蓝中文手写批注。
-
-<粘贴文章>
-```
-
-### 为单个概念生成一张图
-
-```text
-Use $ian-xiaohei-illustrations 为“信任不是喊出来的，而是一块证据一块证据铺过去”生成一张正文配图。
-画面要怪诞但清爽，小黑必须承担核心动作。
-```
-
-### 去掉图里的标题或错误文字
-
-```text
-Use $ian-xiaohei-illustrations 帮我编辑这张图，去掉左上角的“流程图”标题，其他内容保持不变。
-```
-
-更多示例见 [examples/prompts.md](examples/prompts.md)。
-
----
-
-## 工作流程
-
-这个 skill 的流程是：
-
-1. 读取文章、Markdown、Notion 内容、截图或用户给的主题
-2. 提炼核心观点、认知转折、流程结构和适合视觉化的段落
-3. 先输出 shot list：每张图只选一个认知锚点
-4. 为每张图选择结构类型：Workflow、系统局部、前后对比、角色状态、概念隐喻、方法分层、地图路线或小漫画分镜
-5. 重新发明一个低科技、怪诞但成立的物理隐喻
-6. 让小黑承担核心动作
-7. 每张图单独调用图像模型生成
-8. 按 QA checklist 检查：白底、留白、小黑动作、中文标注、非 PPT 感、非旧案例复刻
-9. 保存最终 PNG，并报告用途和路径
-
----
-
-## 目录结构
-
-```text
-.
-├── README.md
-├── LICENSE
-├── NOTICE.md
-├── assets/
-│   └── ian-wechat-qr.jpg
-├── examples/
-│   ├── images/
-│   │   ├── 01-two-breakpoints.png
-│   │   ├── 02-sort-by-purpose.png
-│   │   └── ...
-│   └── prompts.md
-└── ian-xiaohei-illustrations/
-    ├── SKILL.md
-    ├── agents/
-    │   └── openai.yaml
-    ├── assets/
-    │   └── examples/
-    └── references/
-        ├── style-dna.md
-        ├── xiaohei-ip.md
-        ├── composition-patterns.md
-        ├── prompt-template.md
-        └── qa-checklist.md
-```
-
-真正需要安装到 Codex 的是子目录：
-
-```text
-ian-xiaohei-illustrations/
-```
-
-根目录的 README、LICENSE、NOTICE 和 examples 是 GitHub 分享文档。
-
----
-
-## 注意事项
-
-- 图片里的中文文字越短越稳定。
-- 每张图只讲一个核心结构，不要把文章做成说明书。
-- 小黑必须承担核心动作；如果去掉小黑画面仍然完全成立，说明小黑太装饰了。
-- 示例图只用于校准线条密度、留白、颜色克制和小黑参与方式，不要复刻构图。
-- AI 图像模型可能出现错字、幻觉标签、风格漂移或多余标题，生成后需要检查。
-- 如果中文错字严重，优先减少标注词并重生成。
-
----
-
-## 相关项目
-
-- [Ian Handdrawn PPT](https://github.com/helloianneo/ian-handdrawn-ppt) — 中文手绘技术 PPT-style 页面图生成 Skill
-- [Awesome Claude Code Skills](https://github.com/helloianneo/awesome-claude-code-skills) — Claude Code Skills / Agents / Plugins 精选合集
-- [Obsidian + Claude AI Second Brain](https://github.com/helloianneo/obsidian-ai-second-brain) — Obsidian + Claude AI 个人知识库搭建指南
-
----
-
-## 关于作者
-
-**Ian (伊恩)** — 产品设计师 / 一人公司实践者 / AI Builder
-
-用 AI 团队打造一人公司。
-
-- GitHub: [helloianneo](https://github.com/helloianneo)
-- X/Twitter: [@ianneo_ai](https://x.com/ianneo_ai)
-- 网站: [www.ianneo.xyz](https://www.ianneo.xyz)
-- 微信: `ianneoxyz`
-- 邮箱: hello.neoc@gmail.com
-
----
-
-## 继续探索
-
-这套小黑配图 Skill，只是我用 AI 搭建个人生产系统里的一个小工具。
-
-如果你也在用 AI 做内容、知识库、工作流或产品化，可以继续看我的网站：[www.ianneo.xyz](https://www.ianneo.xyz)。
-
-只想先观察，可以关注我的 [X/Twitter](https://x.com/ianneo_ai)。
-
-想了解 Indie Builders Club，加微信：`ianneoxyz`，备注「OPC」。
-
-<p>
-  <img src="assets/ian-wechat-qr.jpg" alt="Ian 微信二维码" width="120">
-</p>
-
-不方便扫码也可以搜索微信：`ianneoxyz`。
-
----
-
-## License
-
-MIT License. See [LICENSE](LICENSE).
+改编自 Ian 的 [Ian Xiaohei Illustrations](https://github.com/helloianneo/ian-xiaohei-illustrations)，基于用户 fork 的提交 `4102eb807f03bcb6e538a16e8b31b41db8b5b954`。图像由内置 image_gen 根据原样板与用户确认的角色参考生成。保留原 MIT 许可与 Ian 归属，见 [LICENSE](LICENSE) 和 [NOTICE.md](NOTICE.md)。
