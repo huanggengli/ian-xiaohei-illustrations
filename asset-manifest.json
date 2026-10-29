@@ -15,8 +15,8 @@
       "title": "最小闭环",
       "width": 1672,
       "height": 941,
-      "bytes": 1498370,
-      "sha256": "b1bb331dd754d5edc6e1b9c7bf1b20f02158868d229b37716f2c484947634593"
+      "bytes": 1547661,
+      "sha256": "e0dd3643b30b60ace873a748efd16dbabebb167cadea42755c2edad0d87c7d2b"
     },
     {
       "file": "03-sort-by-purpose.png",
@@ -47,16 +47,16 @@
       "title": "三类信息来源",
       "width": 1672,
       "height": 941,
-      "bytes": 1627292,
-      "sha256": "fbacefff99b4fbc49112248b91c184ecefedf7f00a4e29bcd51592a0f82c3344"
+      "bytes": 1644839,
+      "sha256": "3435a123200d998826e808539ef7a01d8928e9c5ada4a29838932924e342c5d1"
     },
     {
       "file": "07-three-content-jobs.png",
       "title": "内容的三种职责",
       "width": 1672,
       "height": 941,
-      "bytes": 1583670,
-      "sha256": "3c9477846d00a9f217a71f5dc2152933e71d5ae5485c3855c1e38a90aade6734"
+      "bytes": 1537944,
+      "sha256": "926bda45e812da92557549deccfd683ab02d21ab8f6848a676700cade54f48a1"
     },
     {
       "file": "08-handoff-copy-toolbox.png",
@@ -71,8 +71,8 @@
       "title": "常见坑",
       "width": 1672,
       "height": 941,
-      "bytes": 1566852,
-      "sha256": "e8e9cc7bc97db21a454b9c25c11f3a2e8f9147a4afc25eeddd66eeeaaa7f7711"
+      "bytes": 1510218,
+      "sha256": "3547c44783d33b2fb8133babbc4fc64e623e4ed76569693d8a6e7d7a57457567"
     },
     {
       "file": "10-information-well.png",
@@ -87,16 +87,16 @@
       "title": "想法压机",
       "width": 1672,
       "height": 941,
-      "bytes": 1439957,
-      "sha256": "5c7af21327d81c14eeb7df6afb12accb0c73b789d2eb52734107fbc4364c6b03"
+      "bytes": 1575735,
+      "sha256": "a358afe28b8b608155732b9f8d84eaf93c3c34c2fba4c2f84c486eea45c1a176"
     },
     {
       "file": "12-content-fermentation.png",
       "title": "内容发酵",
       "width": 1672,
       "height": 941,
-      "bytes": 1261214,
-      "sha256": "dc5936d54a9b3954caedbba05d8dbd5a174934fb3a8b4a745fa055d3a5212ebb"
+      "bytes": 1595158,
+      "sha256": "4c33822c35db31e7bf16a8416ec93f805751f6b6b69c4734a40159f226682851"
     },
     {
       "file": "13-system-bearing.png",
@@ -114,5 +114,15 @@
       "bytes": 1569690,
       "sha256": "072270130355d3f90b67a58e1331dcc42056cab5c6cbd338ee9ea66e5fdb1c02"
     }
+  ],
+  "character_reference_sha256": "b1f1026a23791da7b3370458541ffe43ee194a81396f17456075ee44d99f8e6c",
+  "pose_revision": "natural-task-gaze-v2",
+  "pose_corrected_examples": [
+    "02-minimum-loop.png",
+    "06-three-sources.png",
+    "07-three-content-jobs.png",
+    "09-common-pits-no-title.png",
+    "11-idea-press.png",
+    "12-content-fermentation.png"
   ]
 }

@@ -17,12 +17,20 @@ Opaque pure white background, generous negative space, thin slightly irregular b
 Character:
 The same adult woman as the character reference. Natural body proportions, softly rounded facial profile, full cheeks and soft chin, long black hair in {loose / half-up claw clip / low gathered claw-clip long tail}. Deep charcoal and black-brown semi-silhouette, face in shadow without distinct eyes or makeup, restrained warm-brown clothing planes. Relaxed everyday {clothing}. No bag. {Optional simple glasses only if relevant.}
 
+Action and gaze (specify for every image):
+Task object: {操作或关注的具体物件及其位置}
+Gaze target: {人物实际看向哪里}
+Head and neck: {平视／自然转头／轻微低头；仰头时写明高处目标或动作理由}
+Body action: {手势、重心、身体朝向如何配合操作}
+Use a relaxed neck and task-directed gaze; do not lift the chin to display the profile or face the light. Hairstyle does not dictate pose or props.
+
 Light:
+External light direction: {独立于视线指定光源方向}
 External warm amber light selectively touches {a few relevant edges or contact areas}. Preserve dark face and body masses. Use minimal soft shading inside the figure, not an orange background wash. No full-body neon tracing, magical orb or self-luminous hands/props.
 
 Theme: {主题}
 Core idea: {核心意思}
-Composition and action: {人物在哪里、动作、道具、信息流向与留白}
+Composition and action (consistent with the gaze target above): {人物在哪里、动作、道具、信息流向与留白}
 Exact Chinese labels: {逐项列出需要显示的文字；没有就明确 no text}
 
 Color roles:

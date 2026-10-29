@@ -10,17 +10,18 @@ description: 为中文文章、英语学习笔记和个人思考规划或生成 
 ## 先确定角色与风格
 
 - 生成前读取 [references/lucia-ip.md](references/lucia-ip.md) 和 [references/style-dna.md](references/style-dna.md)。人物定义以这些文字约束为准。
-- 查看 `assets/ip/lucia-character-sheet.png`，作为每次生成的角色主参考。它约束半剪影、三种发型和暖光；避免继续强化样图偏修长的身材与侧脸。
+- 查看 `assets/ip/lucia-character-sheet.png`，作为每次生成的角色主参考。它约束半剪影、三种发型和暖光；图中动作只是示范，发型不绑定站立、阅读或持卡动作；避免继续强化样图偏修长的身材与侧脸。
 - 将主参考图的实际本地路径传给图像工具；不能只在提示词里写文件名却不提供图片。用户明确提供新参考或要求变体时，按其说明分配参考角色。
 - `assets/examples/` 的 14 张图片只作构图与密度校准，按需选取，不能一股脑作为人物参考。目录与适配说明见 [references/examples-index.md](references/examples-index.md)。
 
 ## 从文章到图片
 
 1. 读取正文，找出值得配图的认知转折，不平均分配图片。不把未读到的文章内容当作已知事实。
-2. 用户只要求分析或规划时，输出 shot list：段落位置、核心意思、结构、人物动作、主要物件、短标注、受光位置。一般 4–8 张，短文 1–3 张，按内容与用户数量要求调整。
-3. 用户要求生成时直接执行；明确要求确认后再生成时，停在方案。构图需要时读 [references/composition-patterns.md](references/composition-patterns.md)。新文章重新设计隐喻，只有明确复刻请求才沿用样图。
-4. 根据 [references/prompt-template.md](references/prompt-template.md) 编写每张提示词，用内置 `image_gen` 每张单独生成。若有明确要求的人物设定对照图，可以在一张中展示多个姿态；普通多张配图不可拼成一张。
-5. 用 [references/qa-checklist.md](references/qa-checklist.md) 检查实际结果，优先局部修复错字、角色漂移、动作不可读或光效过重等问题。
+2. 先确定人物的操作对象和视线目标，再选择自然头颈角度与身体动作；光源方向独立指定。不要为了展示侧脸或迎光抬头。
+3. 用户只要求分析或规划时，输出 shot list：段落位置、核心意思、结构、人物动作、主要物件、短标注、受光位置。一般 4–8 张，短文 1–3 张，按内容与用户数量要求调整。
+4. 用户要求生成时直接执行；明确要求确认后再生成时，停在方案。构图需要时读 [references/composition-patterns.md](references/composition-patterns.md)。新文章重新设计隐喻，只有明确复刻请求才沿用样图。
+5. 根据 [references/prompt-template.md](references/prompt-template.md) 编写每张提示词，用内置 `image_gen` 每张单独生成。若有明确要求的人物设定对照图，可以在一张中展示多个姿态；普通多张配图不可拼成一张。
+6. 用 [references/qa-checklist.md](references/qa-checklist.md) 检查实际结果，优先局部修复错字、角色漂移、动作不可读或光效过重等问题。
 
 ## 不可遗漏的约束
 

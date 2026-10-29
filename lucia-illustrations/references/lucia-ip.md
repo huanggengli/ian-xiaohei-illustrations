@@ -23,6 +23,12 @@
 
 人物近视，眼镜可选，佩戴时镜框轮廓简洁，不遮蔽动作与侧脸。花纹包已移出定义：不添加手提包、肩包或背包作为默认道具，也不使用它们作为识别元素。
 
+## 视线与自然姿态
+
+先确定正在操作或关注的对象，再让视线、头颈和身体朝向配合它。默认平视、自然转头或随操作轻微低头；打字看屏幕，搭建看积木，递卡片看接收位置，展开卡片看卡片。侧面、四分之三视角或背面均可，不必露出完整侧脸。
+
+暖光与视线独立：可以照亮发梢、肩背或手，人物不必迎光。只有对象确实位于高处或动作需要时才仰头；不将全部姿势改成低头。主参考中的三种发型可以搭配任何自然动作，不绑定图中道具。
+
 ## 动作与状态
 
 阅读、记录、思考、语言学习、电脑学习、步行、跑步，以及概念图中的搬运、分拣、拉线、连接、接住、推开、盖章、搭建等。通勤阅读通常是手机，休闲阅读可用 iPad 和笔；纸质书可作为概念场景的阅读表达。
@@ -31,7 +37,7 @@
 
 ## 正向关键词
 
-暖橙逆光、深色半剪影、自然成年女性比例、柔和略圆侧脸、长黑发、低位抓夹、黑褐色主体、克制暖棕层次、局部琥珀轮廓光、外部自然受光、清晰动作。
+暖橙逆光、深色半剪影、自然成年女性比例、柔和略圆侧脸、长黑发、低位抓夹、黑褐色主体、克制暖棕层次、局部琥珀轮廓光、外部自然受光、清晰动作、视线跟随任务、自然头颈。
 
 warm amber backlighting, dark semi-silhouette illustration, adult woman, natural body proportions, softly rounded facial profile, long black hair, low claw clip, charcoal and dark brown tones, restrained warm-brown detail, selective amber rim light, external illumination, readable gestures.
 
@@ -42,6 +48,7 @@ warm amber backlighting, dark semi-silhouette illustration, adult woman, natural
 - 不改成 Q 版、动漫娃娃、黑团怪物、几何卡通、塑料 3D。
 - 不变成纯黑不可读的糊块，也不完全照亮脸和全身。
 - 不使用全身霓虹描边、魔法光球、火焰、过曝光晕或粒子。
+- 避免无对象的仰头望天、为了轮廓光抬下巴、僵硬伸长脖颈；不禁止有场景理由的抬头。
 - 不把剪影默认解释成恐怖、阴郁、等待拯救。
 
 handbag, shoulder bag, backpack, chibi, anime doll, white dot eyes, oversized eyes, pointed chin, exaggerated model proportions, glamorous makeup, fully illuminated face, unreadable solid-black mass, neon outline, magical aura, glowing orb, flames, excessive bloom, plastic 3D rendering.
